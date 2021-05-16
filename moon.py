@@ -21,7 +21,7 @@ def get_shape_moon(phase):
 moon = pylunar.MoonInfo(TEHRAN_LAT, TEHRAN_LONG)
 today = datetime.datetime.now()
 
-moon.update((today.year, today.month, today.day+10, today.hour, today.minute, 0))
+moon.update((today.year, today.month, today.day, today.hour, today.minute, 0))
 
 # normalize the phase name by removing '_' 
 phase = moon.phase_name().replace('_', ' ')
