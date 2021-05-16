@@ -1,6 +1,6 @@
 @echo off
 c:
-cd C:\Users\Peyman\source\repos\code_lovers
+cd C:\{PATH TO PROJECT}
 python moon.py
 
 pause>nul
